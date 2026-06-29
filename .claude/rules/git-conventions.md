@@ -1,7 +1,10 @@
+---
+description: Branching, commit message, and pull request conventions for this repository
+---
 
-## Git Conventions
+# Git Conventions
 
-### Branching
+## Branching
 
 ```
 feature/add-job-filter-sidebar         # New features
@@ -16,7 +19,7 @@ style/mobile-job-card-spacing          # Visual/style changes
 - Keep branches short-lived; open a PR when ready
 - Delete branches after merging
 
-### Commit Messages
+## Commit Messages
 
 Follow **Conventional Commits**:
 
@@ -33,8 +36,8 @@ style: fix spacing on mobile job list
 - Keep the subject line under 72 characters
 - Add a body for non-obvious changes
 
-### Pull Requests
+## Pull Requests
 
-- PR title should match the commit message format
+- PR title must match the Conventional Commits format
 - Include a summary and test plan in the PR description
 - Target `main` as the base branch

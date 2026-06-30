@@ -13,11 +13,11 @@ dist-ssr
 *.local
 
 # Claude Code
-.claude/*
-!.claude/rules/
-!.claude/rules/**
-!.claude/skills
-!.claude/skills/**
+# .claude/*
+# !.claude/rules/
+# !.claude/rules/**
+# !.claude/skills
+# !.claude/skills/**
 
 # Editor directories and files
 .vscode/*
